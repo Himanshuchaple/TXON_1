@@ -1,0 +1,123 @@
+/* Styles for header and navigation */
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Styles for hero section */
+#hero {
+  background-image: url('https://media.wired.com/photos/592687718d4ebc5ab806a98d/master/w_2560%2Cc_limit/apple-steve-jobs-iphone-AP_070109066608.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+
+
+
+
+
+
+#hero h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+#hero p {
+  font-size: 1.5rem;
+  margin: 1rem 0 0;
+}
+
+/* Styles for biography section */
+#biography {
+  padding: 2rem;
+}
+
+#biography h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#biography p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* Styles for timeline section */
+#timeline {
+  padding: 2rem;
+}
+
+#timeline h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#timeline ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#timeline li {
+  margin-bottom: 1rem;
+}
+
+#timeline h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Styles for quotes section */
+#quotes {
+  padding: 2rem;
+  text-align: center;
+}
+
+#quotes h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: 0;
+}
+
+cite {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
